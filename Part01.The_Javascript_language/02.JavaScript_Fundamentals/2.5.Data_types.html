@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "Ilya";
+
+        alert( `hello ${1}` ); //error(x) -> hello 1
+
+        alert( `hello ${"name"}` ); //error(x) -> hello name
+
+        alert( `hello ${name}` ); //hello Ilya(o)
+
+        // ${   }안에 표현식을 넣고 문자열을 포함한 전체를 백틱으로 감싸면
+        // 평가된 표현식이 *문자열*로 반환됨(그래서 문자열로 그대로 나온 것)
+        // 근데 3번의 경우는 표현식 안에 *변수*가 들어가있게 때문에,
+        // 이 변수가 평가되어 전체 문자열 반환
+
+    </script>
+</body>
+</html>
