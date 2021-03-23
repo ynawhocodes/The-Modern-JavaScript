@@ -18,6 +18,3 @@
   - [2.7.Type_Conversions](https://github.com/ynawhocodes/The-Modern-JavaScript/blob/master/Part01.The_Javascript_language/02.JavaScript_Fundamentals/2.7.Type_Conversions.md)
 
 
-### Part 02.
-
- 
