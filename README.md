@@ -1,8 +1,8 @@
 # The-Modern-JavaScript
 
-🔗[참고 링크](https://javascript.info/)
+🔗 [참고 링크](https://javascript.info/)
 <br>
-🔍[궁금한 점](https://github.com/ynawhocodes/The-Modern-JavaScript/blob/master/Part01.The_Javascript_language/Part01_memo.md)
+🔍 [궁금한 점](https://github.com/ynawhocodes/The-Modern-JavaScript/blob/master/Part01.The_Javascript_language/Part01_memo.md)
 
 ### Part01.The_Javascript_language
   #### 01.An_introduction
