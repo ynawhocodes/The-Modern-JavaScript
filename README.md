@@ -20,5 +20,5 @@
 
 # Core JavaScript
 
-#### hoisting
-[var, let, const 비교](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
+#### 01. hoisting
+- [var, let, const 비교](https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d)
