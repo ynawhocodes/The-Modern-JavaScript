@@ -9,14 +9,28 @@
 </head>
 <body>
     <script>
-      function a (x) {
-          console.log(x);//1
-          var x;
-          console.log(x);//1
-          var x = 2;
-          console.log(x);//2
-      }
-      a(1);
+        //1
+        name = 'global'; 
+        function func(){
+        console.log(name)  //Cannot access 'name' before initialization
+        let name = 'local';
+        }
+        func();
+
+        //2
+        var name;
+        function func(){
+        console.log(name) //Cannot access 'name' before initialization
+        let name = 'local';
+        }
+        name = 'global';
+        func();
+
+        //3
+        hello2();
+        var hello2 = function (){
+        console.log('hello2') //hello2 is not a function
+        }
     </script>
 </body>
 </html>
