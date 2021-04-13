@@ -37,7 +37,7 @@ d = 원본 객체 혹은 배열
 reduce((a, b, c, d) => {    }, A)
 ```
 두번째 인자인 A는 초기값이다
-A는 함수 인자인 a의 초기값을 설정해준다
+A는 함수 인자인 `a의 초기값`을 설정해준다 <br>
 처음 a의 값은 당연히 undefined이므로 함수 안에서 a를 return 해야한다
 ```js
 reduce((a, b, c, d) => {  ... return a; }, A)
