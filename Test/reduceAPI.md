@@ -19,5 +19,7 @@ var list = [ {
   console.log(target)
  ```
  
- #### console
+#### console result
+ <img src="../src/0414console.PNG">
  
+#### 설명
